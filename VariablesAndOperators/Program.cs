@@ -51,7 +51,7 @@ namespace VariablesAndOperators
 
 
             Console.WriteLine("How much do you want to donate?");
-            Console.WriteLine("How many ones?");
+            Console.WriteLine ("How many ones?");
             int numberOfOnes = int.Parse(Console.ReadLine());
             Console.WriteLine("How many fives?");
             int numberOfFives = int.Parse(Console.ReadLine());
@@ -74,11 +74,7 @@ namespace VariablesAndOperators
             Console.WriteLine("Donor Address: " + donorAddress);
             Console.WriteLine("Donor Email address: " + donorEmail);
             Console.WriteLine("Fiscal year: " + fiscalYear);
-
             Console.WriteLine("Total amount of donations: $" + totalDonationAmount);
-
-
-
         }
     }
 }
