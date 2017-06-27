@@ -51,7 +51,7 @@ namespace VariablesAndOperators
 
 
             Console.WriteLine("How much do you want to donate?");
-            Console.WriteLine ("How many ones?");
+            Console.WriteLine("How many ones?");
             int numberOfOnes = int.Parse(Console.ReadLine());
             Console.WriteLine("How many fives?");
             int numberOfFives = int.Parse(Console.ReadLine());
