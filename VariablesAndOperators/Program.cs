@@ -64,7 +64,7 @@ namespace VariablesAndOperators
             Console.WriteLine("How many hundreds?");
             int numberOfHundreds = int.Parse(Console.ReadLine());
             Console.WriteLine("How many quarters?");
-            double numberOfQuarters = int.Parse(Console.ReadLine());
+            double numberOfQuarters = double.Parse(Console.ReadLine());
 
             double totalDonationAmount = (numberOfOnes + (numberOfFives * 5) +
                 (numberOfTens * 10) + (numberOfTwenties * 20) + (numberOfFifties * 50) +
